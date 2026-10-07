@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     async function APIcall() {
 
-      let response = await fetch("https://fullstack-react-xtki.onrender.com/")
+      let response = await fetch("https://fullstack-react-xtki.onrender.com")
       let data = await response.json()
 
       console.log(data)
